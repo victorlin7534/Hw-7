@@ -6,7 +6,7 @@
 void print_list(struct node * x){
 	struct node * mark = x;
 	while(mark){
-		printf("%.0lf,  ",mark->val);
+		printf("%.0lf->",mark->val);
 		mark = mark->next;
 	}
 }

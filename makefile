@@ -11,4 +11,4 @@ run:
 	./test
 
 clean:
-	rm -f *.exe *.out *~ *.o
+	rm -f *.exe *.out *~ *.o test
