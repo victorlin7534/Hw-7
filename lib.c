@@ -26,5 +26,5 @@ struct node * free_list(struct node * x){
 		free(mark);
 		mark = temp;
 	}
-	return x;
+	return mark;
 }
